@@ -1,0 +1,26 @@
+body{
+    border: 5px solid gray;
+    margin:0px;
+}
+h1{
+    text-align: center;
+}
+#basic-info label{
+    display:block; /* block deoa mane proti label tag er element er shurute and sesh e onno kisur element thakte dey na */
+    margin-top: 10px;
+}
+#basic-info{
+    margin: 20px;
+}
+#pitha-info{
+    margin: 20px;
+}
+#vorta-selection{
+    margin: 20px;
+}
+#extra-info{
+    margin: 20px;
+}
+#submit{
+    margin: 20px;
+}
