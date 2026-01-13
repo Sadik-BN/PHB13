@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Axis</title>
+    <Style>
+        .swim-container{
+            border: 2px solid black;
+            width: 300px;
+        }
+        .box{
+            position :relative;
+            border: 1px dotted  yellowgreen;
+        }
+        .boy{
+            z-index: 2;
+        }
+        .ring{
+            top:-75px;
+            z-index: 1;
+        }
+        .water{
+            top:-170px;
+            z-index: 0;
+        }
+    </Style>
+</head>
+<body>
+    <h3>Z index</h3>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="swim/boy.svg" alt="">
+        </div>
+        <div class="box ring">
+            <img src="swim/ring.svg" alt="">
+        </div>
+        <div class="box water">
+            <img src="swim/water.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>

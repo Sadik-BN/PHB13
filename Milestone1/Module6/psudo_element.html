@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: 'end';
+            color: red;
+        }
+        h3::before{
+            content: 'start';
+            color: blue;
+            font-size: 50px;
+        }
+        p::first-letter{
+            font-size: 3em; /*3x size*/
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Headding-1</h3>
+    <h3>Headding-2</h3>
+    <h3>Headding-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae culpa modi, nostrum rem eligendi sequi porro nemo dolores tempora!</p>
+    <p>Molestiae accusamus veritatis blanditiis dicta asperiores et! Natus, repellat hic ab corporis ut facilis magni ad doloremque eveniet voluptatem exercitationem.</p>
+    <p>Voluptatem illum ut voluptatum, culpa fuga a corrupti vitae rem assumenda. Similique facilis magnam tempore laboriosam, quo eos praesentium ipsum?</p>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .swim-container{
+            position: relative;
+            border: solid 3px green;
+        }
+        .box{
+            border: 2px dotted plum;
+            width: 200px;
+        }
+        /* .ring{
+            position: relative;
+            left: 50px;
+            top: -30px;
+        } */
+        /* .ring{
+            position: absolute;
+            top: 20px;
+
+        } */
+        /* .ring{
+            position: sticky;
+            top: 50px;
+            left: 70px;
+        } */
+        /* .ring{
+            position: fixed;
+            top: 20px;
+        } */
+        .dummy{
+            border: 1px solid turquoise;
+            width:200px;
+            height: 200px;
+         }
+        .dummy-container{
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Positions</h3>
+
+    <ol>
+        <!-- Flow related -->
+        <li>Static</li>
+        <li>Relative:Related to current position.Will not leave the current spot</li>
+        <li>Absolute</li>
+        <!-- Scroll Related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box boy"><img src="swim/boy.svg" alt=""></div>
+        <div class="box ring"><img src="swim/ring.svg" alt=""></div>
+        <div class="box water"><img src="swim/water.svg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+    <div class="dummy-container">
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+</body>
+</html>

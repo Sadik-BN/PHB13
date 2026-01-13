@@ -1,0 +1,39 @@
+body{
+    max-width: 1270px;
+    background-color: bisque;
+    margin: 0 auto; /* contents centers vertically*/
+}
+.banner-container{
+    display: flex;
+    align-items: center; /* vertically center*/
+    justify-content: center; /*horizontally center*/
+    gap:40px; /*gap between childs*/
+    background-color: lightblue;
+    padding: 25px;
+    font-size: 1.25em;
+    border-radius: 30px;
+}
+
+.banner-container img{
+    width: 100%;
+    height:auto;
+    border-radius: 100%;
+}
+
+.banner-container button{
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 25px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color:black;
+}
+.banner-container button:hover{
+    opacity: 1;
+    background-color: steelblue;
+}
+
